@@ -27,6 +27,7 @@ public class Wheel {
     System.out.print("Please provide a real number: ");
     Scanner s = new Scanner(System.in); 
     double input = s.nextDouble();
+    s.close();
     
     // Create a Wheel Object
     Wheel w = new Wheel(input);
